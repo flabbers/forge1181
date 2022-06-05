@@ -25,6 +25,7 @@ public class BeginMod
     // Directly reference a log4j logger.
     private static final Logger LOGGER = LogManager.getLogger();
 
+    // test github comment
 
     public BeginMod() {
         // Register the setup method for modloading
