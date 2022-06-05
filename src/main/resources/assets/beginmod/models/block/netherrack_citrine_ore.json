@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "beginmod:block/netherrack_citrine_ore"
+  }
+}

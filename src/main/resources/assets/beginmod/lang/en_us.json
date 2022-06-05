@@ -1,4 +1,10 @@
 {
   "item.beginmod.gsm": "Cellphone",
-  "item.beginmod.citrine": "Citrine"
+  "item.beginmod.citrine": "Citrine",
+  "block.beginmod.citrine_block": "Citrine Block",
+  "block.beginmod.raw_citrine_block": "Raw Citrine Block",
+  "block.beginmod.citrine_ore": "Citrine Ore",
+  "block.beginmod.deepslate_citrine_ore": "Deepslate Citrine Ore",
+  "block.beginmod.endstone_citrine_ore": "Endstone Citrine Ore",
+  "block.beginmod.netherrack_citrine_ore": "Netherrack Citrine Ore"
 }

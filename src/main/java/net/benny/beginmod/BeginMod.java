@@ -1,5 +1,6 @@
 package net.benny.beginmod;
 
+import net.benny.beginmod.block.ModBlocks;
 import net.benny.beginmod.item.ModItems;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
@@ -32,7 +33,10 @@ public class BeginMod
     public BeginMod() {
         // Register the setup method for modloading
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
         ModItems.register(eventBus);
+        ModBlocks.register(eventBus);
+
         eventBus.addListener(this::setup);
 
 
