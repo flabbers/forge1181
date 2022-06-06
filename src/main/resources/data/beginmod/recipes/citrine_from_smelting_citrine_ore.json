@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "beginmod:citrine_ore"
+  },
+  "result": "beginmod:citrine",
+  "experience": 0.9,
+  "cookingtime": 400
+}
