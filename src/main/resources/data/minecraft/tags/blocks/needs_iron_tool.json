@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "beginmod:citrine_ore",
+    "beginmod:citrine_block",
+    "beginmod:raw_citrine_block",
+    "beginmod:deepslate_citrine_ore",
+    "beginmod:netherrack_citrine_ore",
+    "beginmod:endstone_citrine_ore"
+  ]
+}

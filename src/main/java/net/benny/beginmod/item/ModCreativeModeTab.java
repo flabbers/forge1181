@@ -8,7 +8,7 @@ public class ModCreativeModeTab {
             new CreativeModeTab("beginmod_itemtab") {
                 @Override
                 public ItemStack makeIcon() {
-                    return new ItemStack(ModItems.CITRINE.get());
+                    return new ItemStack(ModItems.RAW_CITRINE.get());
                 }
             };
 

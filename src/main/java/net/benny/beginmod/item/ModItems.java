@@ -28,4 +28,7 @@ public class ModItems {
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.BEGINMOD_ITEMTAB)));
             //() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 
+    public static final RegistryObject<Item> RAW_CITRINE = ITEMS.register("raw_citrine",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.BEGINMOD_ITEMTAB)));
+
 }
