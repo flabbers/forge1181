@@ -1,6 +1,7 @@
 package net.benny.beginmod.block;
 
 import net.benny.beginmod.BeginMod;
+import net.benny.beginmod.item.ModCreativeModeTab;
 import net.benny.beginmod.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
@@ -49,7 +50,7 @@ public class ModBlocks {
                             .of(Material.METAL)
                             .strength(9f)
                             .requiresCorrectToolForDrops())
-                    , CreativeModeTab.TAB_MISC);
+                    , ModCreativeModeTab.BEGINMOD_BLOCKTAB);
     // nu nog textures en models en lang toevoegen
 
 
@@ -59,7 +60,7 @@ public class ModBlocks {
                             .of(Material.METAL)
                             .strength(7f)
                             .requiresCorrectToolForDrops())
-            ,CreativeModeTab.TAB_MISC);
+            ,ModCreativeModeTab.BEGINMOD_BLOCKTAB);
 
     public static final RegistryObject<Block> CITRINE_ORE =
             registerBlock("citrine_ore"
@@ -67,7 +68,7 @@ public class ModBlocks {
                             .of(Material.STONE)
                             .strength(5f)
                             .requiresCorrectToolForDrops())
-                    ,CreativeModeTab.TAB_MISC);
+                    ,ModCreativeModeTab.BEGINMOD_BLOCKTAB);
 
     public static final RegistryObject<Block> DEEPSLATE_CITRINE_ORE =
             registerBlock("deepslate_citrine_ore"
@@ -75,7 +76,7 @@ public class ModBlocks {
                             .of(Material.STONE)
                             .strength(3f)
                             .requiresCorrectToolForDrops())
-                    ,CreativeModeTab.TAB_MISC);
+                    ,ModCreativeModeTab.BEGINMOD_BLOCKTAB);
 
     public static final RegistryObject<Block> ENDSTONE_CITRINE_ORE =
             registerBlock("endstone_citrine_ore"
@@ -83,7 +84,7 @@ public class ModBlocks {
                             .of(Material.STONE)
                             .strength(2f)
                             .requiresCorrectToolForDrops())
-                    ,CreativeModeTab.TAB_MISC);
+                    ,ModCreativeModeTab.BEGINMOD_BLOCKTAB);
 
     public static final RegistryObject<Block> NETHERRACK_CITRINE_ORE =
             registerBlock("netherrack_citrine_ore"
@@ -91,7 +92,7 @@ public class ModBlocks {
                             .of(Material.STONE)
                             .strength(1f)
                             .requiresCorrectToolForDrops())
-                    ,CreativeModeTab.TAB_MISC);
+                    ,ModCreativeModeTab.BEGINMOD_BLOCKTAB);
 
 
 }

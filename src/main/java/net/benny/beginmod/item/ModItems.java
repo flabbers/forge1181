@@ -1,7 +1,7 @@
 package net.benny.beginmod.item;
 
 import net.benny.beginmod.BeginMod;
-import net.minecraft.world.item.CreativeModeTab;
+//import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -21,10 +21,11 @@ public class ModItems {
 
     //een item toevoegen :
     public static final RegistryObject<Item> GSM = ITEMS.register("gsm",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.BEGINMOD_ITEMTAB)));
     //that's it, nu is het item in de game, maar nog zonder texture en functionaliteit ...
 
     public static final RegistryObject<Item> CITRINE = ITEMS.register("citrine",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.BEGINMOD_ITEMTAB)));
+            //() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 
 }

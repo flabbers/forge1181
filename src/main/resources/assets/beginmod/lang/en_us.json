@@ -6,5 +6,7 @@
   "block.beginmod.citrine_ore": "Citrine Ore",
   "block.beginmod.deepslate_citrine_ore": "Deepslate Citrine Ore",
   "block.beginmod.endstone_citrine_ore": "Endstone Citrine Ore",
-  "block.beginmod.netherrack_citrine_ore": "Netherrack Citrine Ore"
+  "block.beginmod.netherrack_citrine_ore": "Netherrack Citrine Ore",
+  "itemGroup.eerstemod.beginmod_itemtab": "Benny Items",
+  "itemGroup.eerstemod.beginmod_blocktab": "Benny Blocks"
 }

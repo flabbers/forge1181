@@ -6,5 +6,7 @@
   "block.beginmod.citrine_ore": "Citrine Ore test",
   "block.beginmod.deepslate_citrine_ore": "Deepslate Citrine Ore test",
   "block.beginmod.endstone_citrine_ore": "Endstone Citrine Ore test",
-  "block.beginmod.netherrack_citrine_ore": "Netherrack Citrine Ore test"
+  "block.beginmod.netherrack_citrine_ore": "Netherrack Citrine Ore test",
+  "itemGroup.eerstemod.beginmod_itemtab": "voorwerpjes",
+  "itemGroup.eerstemod.beginmod_blocktab": "blokjes"
 }
