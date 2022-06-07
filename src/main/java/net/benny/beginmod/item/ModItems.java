@@ -2,6 +2,7 @@ package net.benny.beginmod.item;
 
 import net.benny.beginmod.BeginMod;
 //import net.minecraft.world.item.CreativeModeTab;
+import net.benny.beginmod.item.custom.DowsingRodItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -30,5 +31,8 @@ public class ModItems {
 
     public static final RegistryObject<Item> RAW_CITRINE = ITEMS.register("raw_citrine",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.BEGINMOD_ITEMTAB)));
+
+    public static final RegistryObject<Item> DOWSING_ROD = ITEMS.register("dowsing_rod",
+            () -> new DowsingRodItem(new Item.Properties().tab(ModCreativeModeTab.BEGINMOD_ITEMTAB).durability(16)));
 
 }

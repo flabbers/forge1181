@@ -9,5 +9,7 @@
   "block.beginmod.endstone_citrine_ore": "Endstone Citrine Ore",
   "block.beginmod.netherrack_citrine_ore": "Netherrack Citrine Ore",
   "itemGroup.eerstemod.beginmod_itemtab": "Benny Items",
-  "itemGroup.eerstemod.beginmod_blocktab": "Benny Blocks"
+  "itemGroup.eerstemod.beginmod_blocktab": "Benny Blocks",
+  "item.beginmod.dowsing_rod.no_valuables": "No valuables found, sorry",
+  "item.beginmod.dowsing_rod": "Dowsing Rod"
 }
